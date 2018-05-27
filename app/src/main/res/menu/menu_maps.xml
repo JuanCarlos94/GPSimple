@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/irpara"
+        android:title="Ir para"/>
+    <item android:id="@+id/rotas"
+        android:title="Rotas"/>
+    <item android:id="@+id/tipomapa"
+        android:title="Tipo mapa">
+        <menu>
+            <item android:id="@+id/normal"
+                android:title="Normal"/>
+            <item android:id="@+id/hibrido"
+                android:title="Hibrido"/>
+            <item android:id="@+id/satelite"
+                android:title="Satelite"/>
+            <item android:id="@+id/terreno"
+                android:title="Terreno"/>
+            <item android:id="@+id/nenhum"
+                android:title="Nenhum"/>
+        </menu>
+    </item>
+</menu>
